@@ -4,9 +4,9 @@
 
 ## :book: Temario:
 
-- 1 - Fundamentos de la programación
+- 1 - [Fundamentos de la programación](https://github.com/eugenia1984/BackEnd-Node.js-con-Daniel-Segovia/blob/main/teoria/01-fundamentos-de-la-programacion.md)
 
-- 2 - Pensamiento lógico
+- 2 - [Pensamiento lógico](https://github.com/eugenia1984/BackEnd-Node.js-con-Daniel-Segovia/blob/main/teoria/02-pensamiento-logico.md)
 
 - 3 - Ejercitemos con Scratch
 
