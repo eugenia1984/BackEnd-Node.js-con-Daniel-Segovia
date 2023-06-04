@@ -34,28 +34,28 @@ JavaScript fue creado en **1995** por **Brendan Eich**, quien trabajaba para **N
 
 Una de la ventajas más grandes que posee JavaScript es que **puede ser utillizado en diferentes campos**, por ejemplo, el desarrollo web, robótica, inteligencia artificial, videojuegos o el análisis de datos. A continuación, se describen algunas de las aplicaciones más comunes de JavaScript:
 
-### Desarrollo web
+###   <img width="30" height="30" src="https://img.icons8.com/color/30/javascript--v1.png" alt="javascript icon"/>  Desarrollo web
 
 JavaScript es el lenguaje de programación por excelencia para el desarrollo web. Se utiliza principalmente para crear **páginas web interactivas y dinámicas**, y para **agregar interactividad a las páginas existentes**. Con JavaScript, se pueden crear **efectos visuales, animaciones, validaciones de formularios, menús desplegables** y mucho más.
 
 Además, JavaScript se utiliza para crear **aplicaciones web completas**, incluyendo aplicaciones de comercio electrónico, aplicaciones de redes sociales y aplicaciones de streaming. Con herramientas y plataformas como **Node.js**, se puede desarrollar aplicaciones de **backend escalables y de alta calidad**.
 
 
-### Robótica
+###  <img width="30" height="30" src="https://img.icons8.com/color/30/javascript--v1.png" alt="javascript icon"/>   Robótica
 
 JavaScript permite **programar robots de diferentes tipos y niveles de complejidad**. Es asombroso cómo se pueden crear robots que realicen tareas específicas gracias a JavaScript. Te imaginas pensar en la posibilidad de programar un robot que haga tareas de limpieza en tu casa, ¿eso sería increíble no?.
 
 Conociendo las bases de JavaScript podrás programar tus proyectos electrónicos interactivos con **Arduino**, como por ejemplo, **sistemas de control de robots, sensores de clima, monitores de salud, juegos interactivos** y mucho más
 
 
-### Inteligencia artificial
+###  <img width="30" height="30" src="https://img.icons8.com/color/30/javascript--v1.png" alt="javascript icon"/>  Inteligencia artificial
 
 JavaScript también se puede utilizar en la inteligencia artificial. Existen diferentes **bibliotecas y frameworks de JavaScript** que permiten crear modelos de aprendizaje automático, como **TensorFlow.js** o **Brain.js**.
 
 Con estas herramientas, se pueden **crear modelos de aprendizaje automático para diferentes aplicaciones, como reconocimiento de imágenes, análisis de sentimientos y recomendación de productos**.
 
 
-### Videojuegos
+###  <img width="30" height="30" src="https://img.icons8.com/color/30/javascript--v1.png" alt="javascript icon"/>  Videojuegos
 
 JavaScript es uno de los lenguajes más utilizados en la **creación de juegos en la web**. Existen **varias librerías y frameworks** que te permiten crear juegos en el navegador utilizando JavaScript.
 
@@ -66,13 +66,13 @@ Algunas de las librerías y frameworks más populares para la creación de juego
 Estas librerías y frameworks son ideales para desarrolladores que desean crear juegos en la web, ya que proporcionan una variedad de herramientas y características útiles para hacer juegos interesantes y atractivos para los usuarios.
 
 
-###  Música
+###  <img width="30" height="30" src="https://img.icons8.com/color/30/javascript--v1.png" alt="javascript icon"/>  Música
 
 En el campo de la música, JavaScript se puede utilizar para crear aplicaciones que permitan a los usuarios crear sus propias canciones o remixes. Es increíble pensar JavaScript es utilizado en el campo de la música para crear aplicaciones web que permiten a los usuarios crear sus propias canciones o remixes. Existen librerías y herramientas que permiten la creación de secuenciadores, sintetizadores y samplers.
 
 Por ejemplo, Tone.js es una biblioteca de código abierto para la creación de audio y música en el navegador.en la posibilidad de crear música con una herramienta desarrollada con JavaScript.
 
-### Backend
+###  <img width="30" height="30" src="https://img.icons8.com/color/30/javascript--v1.png" alt="javascript icon"/>  Backend
 
 Y por supuesto (y por eso estamos aquí) es posible utilizar JavaScript para **realizar aplicaciones de backend** gracias a [**Node.js**](https://nodejs.org/en)
 
