@@ -79,3 +79,7 @@
 - 36 - Feedback de trabajos
 
 ---
+
+## :book: [**Notas de las clases**](https://github.com/eugenia1984/BackEnd-Node.js-con-Daniel-Segovia/blob/main/notas.md)
+
+---
