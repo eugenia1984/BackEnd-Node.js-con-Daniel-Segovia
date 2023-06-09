@@ -2,7 +2,7 @@
 
 ---
 
-## :book: Temario:
+## :book: Temario de la [plataforma](https://danielsegovia.com/plataforma):
 
 ### Módulo 1:
 
