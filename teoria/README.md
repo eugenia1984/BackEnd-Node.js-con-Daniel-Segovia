@@ -8,7 +8,7 @@
 
 3 - [Ejercitemos con Scratch](https://github.com/eugenia1984/BackEnd-Node.js-con-Daniel-Segovia/blob/main/teoria/03_ejercitemos_con_scratch.md)
 
-4 - GIT & Consola
+4 - [GIT & Consola](https://github.com/eugenia1984/BackEnd-Node.js-con-Daniel-Segovia/blob/main/teoria/04_git_consola.md)
 
 5 - Variables y tipos de datos
 
