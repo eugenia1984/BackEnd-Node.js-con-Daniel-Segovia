@@ -2,6 +2,22 @@
 
 ---
 
+## :computer: ¿Quñe vamos a crear?
+
+- Vamos a hacer una aplicación desde cero, con...
+ 
+... un usuario se va a poder loguear
+
+... vamos a usar JSON web token
+
+... middleware
+
+... almacenar datos en bases de datos(relacionales y no relacionales. También base de datos en **memoria** como **Redis**)
+
+... saber que es un ORM (capa de abstraccion entre base de datos y el codigo)
+
+---
+
 ## :book: Algortimos
 
 - Además de **Ver que funcione**, hacerlo **lo mejor posible**, se ve en el **live coding**, ven ¿cómo lo resulvo? ¿qué tan óptimo es mi algoritmo?.
@@ -32,5 +48,32 @@ Hay de 2 tipos:
 - **Relacionales**: por tablas, como **MySQL**
 
 - **No relacionales**: por documentos, como **mongo**, **mongoose**. 
+
+---
+---
+
+
+## :star: Ejercicios
+
+---
+
+## EJERCICIO 1
+
+**¿Cual es la moneda más pesada?**
+
+Una persona tiene 9 monedas, a simple vista se ven todas iguales pero solamente hay una de ellas que es más pesada que el resto.
+
+Posees una balanza antigua que se mantedrá equilibrada si pones el mismo peso en ambos extremos o se indicará hacía uno de los lados cuando pongas algo más pesado en algún extremo
+
+**Ejemplos**:
+
+- Si pones 2 monedas de cada lado y todas son iguales la balance se mantendrá equilibrada
+
+- Si pones más monedas del lado izquierdo que del derecho la balanza se inclinará hacía la izquierda
+
+El juego consiste en encontrar la moneda más pesada solamente utilizando la balanza 2 veces
+
+Crear un diagrama que resuelva el desafio de las balanzas
+
 
 ---
