@@ -38,70 +38,68 @@ A continuación sigue los pasos para su instalación en el sistema operativo que
 
 ### Instalación de Visual Studio Code en Windows
 
-Ve al sitio web oficial de Visual Studio Code: https://code.visualstudio.com/download
+1. Ve al sitio web oficial de Visual Studio Code: https://code.visualstudio.com/download
 
-Descarga la versión más reciente para Windows haciendo clic en el botón de descarga.
+2. Descarga la versión más reciente para Windows haciendo clic en el botón de descarga.
 
-Ejecuta el archivo de instalación que descargaste y sigue las instrucciones del instalador.
+3. Ejecuta el archivo de instalación que descargaste y sigue las instrucciones del instalador.
 
-Abre Visual Studio Code haciendo clic en el icono en el menú de inicio o en el escritorio.
+4. Abre Visual Studio Code haciendo clic en el icono en el menú de inicio o en el escritorio.
 
 ### Instalación de Visual Studio Code en Linux
 
-Ubuntu/Debian
+### Ubuntu/Debian
 
-Abre la terminal y ejecuta los siguientes comandos:
+1. Abre la terminal y ejecuta los siguientes comandos:
 
+```
 sudo apt update
-
 sudo apt install software-properties-common apt-transport-https wget
-
 wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add -
-
 sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main"
-
 sudo apt update
-
 sudo apt install code
+```
 
-CentOS/Fedora
+### CentOS/Fedora
 
-Abre la terminal y ejecuta los siguientes comandos:
+1. Abre la terminal y ejecuta los siguientes comandos:
 
+```
 sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
-
 sudo sh -c 'echo -e "[code]\nname=Visual Studio 
-
 Code\nbaseurl=https://packages.microsoft.com/yumrepos/vscode\nenabled=1\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" > 
 /etc/yum.repos.d/vscode.repo'
-
 sudo dnf check-update
-
 sudo dnf install code
+```
 
 ### Instalación de Visual Studio Code en macOS
 
-Ve al sitio web oficial de Visual Studio Code: https://code.visualstudio.com/download
+1. Ve al sitio web oficial de Visual Studio Code: https://code.visualstudio.com/download
 
-Descarga la versión más reciente para macOS haciendo clic en el botón de descarga.
+2. Descarga la versión más reciente para macOS haciendo clic en el botón de descarga.
 
-Abre el archivo descargado.
+3. Abre el archivo descargado.
 
-Arrastra y suelta el icono de Visual Studio Code en la carpeta «Aplicaciones».
+4. Arrastra y suelta el icono de Visual Studio Code en la carpeta «Aplicaciones».
 
-Abre Visual Studio Code haciendo clic en el icono en la carpeta «Aplicaciones».
+5. Abre Visual Studio Code haciendo clic en el icono en la carpeta «Aplicaciones».
 
-Verificación de la instalación
+
+## :computer: Verificación de la instalación
 
 Una vez que hayas instalado Visual Studio Code, puedes verificar que se haya instalado correctamente ejecutando el programa y comprobando que se abra correctamente. 
+
+![image](https://github.com/eugenia1984/BackEnd-Node.js-con-Daniel-Segovia/assets/72580574/0ba20522-08f2-484e-8c84-6bc406be6d22)
 
 Además, puedes verificar la versión que se ha instalado seleccionando «Ayuda» en la barra de menú y haciendo clic en «Acerca de Visual Studio Code».
 
 ---
 
-## GIT
+## :computer:  GIT
 
-Git es un sistema de control de versiones distribuido de código abierto (mira este video sobre open source) utilizado para el seguimiento de cambios en el código fuente durante el desarrollo de software. Fue creado por Linus Torvalds, el ingeniero de software finlandés más conocido como el creador y desarrollador principal del sistema operativo Linux.
+Git es un sistema de control de versiones distribuido de código abierto (mira este [video](https://www.youtube.com/watch?v=sVhBkC-VEFM) sobre open source) utilizado para el seguimiento de cambios en el código fuente durante el desarrollo de software. Fue creado por [Linus Torvalds](https://es.wikipedia.org/wiki/Linus_Torvalds), el ingeniero de software finlandés más conocido como el creador y desarrollador principal del sistema operativo Linux.
 
 La creación de Git por parte de Torvalds fue motivada por la necesidad de una alternativa al sistema de control de versiones que había estado utilizando para el desarrollo del kernel de Linux, llamado BitKeeper. BitKeeper era una herramienta privada y propietaria, y su uso gratuito para proyectos de software libre y de código abierto estaba sujeto a ciertas restricciones. En 2005, hubo un desacuerdo entre la comunidad de desarrolladores de Linux y la empresa que desarrollaba BitKeeper, lo que llevó a la decisión de abandonar el uso de BitKeeper.
 
@@ -109,60 +107,58 @@ Ante esta situación, Linus Torvalds decidió crear su propio sistema de control
 
 Git se ha convertido en una herramienta muy popular entre los desarrolladores debido a su capacidad de manejar proyectos grandes y complejos, y su flexibilidad para trabajar en diferentes entornos y con diferentes herramientas. Además, proporciona un control de versiones distribuido, lo que significa que cada desarrollador tiene una copia completa del repositorio y puede trabajar de forma independiente sin depender de un servidor centralizado. Esto ha permitido un desarrollo más descentralizado y colaborativo, lo que ha sido especialmente beneficioso para proyectos de software de gran envergadura.
 
-En la última encuesta anual de StackOverflow indica que el 96,65% de los desarrolladores profesionales utilizan Git
+En la última [encuesta anual](https://survey.stackoverflow.co/2022/#section-version-control-version-control-systems) de StackOverflow indica que el 96,65% de los desarrolladores profesionales utilizan Git
 
+![image](https://github.com/eugenia1984/BackEnd-Node.js-con-Daniel-Segovia/assets/72580574/a9f08829-23f9-4487-bc65-2a3b420ca78c)
+
+---
 
 ### Instalación de Git en Windows
 
-Descarga el instalador de Git para Windows desde la página oficial de Git: https://git-scm.com/download/win
+1. Descarga el instalador de Git para Windows desde la página oficial de Git: [https://git-scm.com/download/win](https://git-scm.com/download/win)
 
-Ejecuta el archivo descargado y sigue las instrucciones del instalador.
+2. Ejecuta el archivo descargado y sigue las instrucciones del instalador.
 
-Durante la instalación, se te preguntará si deseas agregar Git al PATH del sistema. Asegúrate de seleccionar esta opción para que puedas acceder a Git desde la línea de comandos.
+3. Durante la instalación, se te preguntará si deseas agregar Git al PATH del sistema. Asegúrate de seleccionar esta opción para que puedas acceder a Git desde la línea de comandos.
 
-Haz clic en «Siguiente» y continúa con la instalación. Una vez completada, Git estará instalado en tu sistema.
+4. Haz clic en «Siguiente» y continúa con la instalación. Una vez completada, Git estará instalado en tu sistema.
 
-Instalación de Git en Linux
+### Instalación de Git en Linux
 
 La instalación de Git en Linux varía según la distribución que estés utilizando. A continuación, se presentan las instrucciones para instalar Git en algunas de las distribuciones más populares.
 
 ### Debian/Ubuntu
 
-Abre una terminal y ejecuta el siguiente comando
+Abre una terminal y ejecuta el siguiente comando: ``sudo apt-get update``
 
-sudo apt-get update
+Luego, instala Git ejecutando el siguiente comando: ``sudo apt-get install git``
 
-Luego, instala Git ejecutando el siguiente comando
+### Fedora
 
-sudo apt-get install git
+Abre una terminal y ejecuta el siguiente comando: ``sudo dnf install git``
 
-Fedora
+### CentOS
 
-Abre una terminal y ejecuta el siguiente comando
-
-sudo dnf install git
-
-CentOS
-
-Abre una terminal y ejecuta el siguiente comando
-
-sudo yum install git
+Abre una terminal y ejecuta el siguiente comando: ``sudo yum install git``
 
 ### Instalación de Git en Mac
 
-Descarga el instalador de Git para Mac desde la página oficial de Git: https://git-scm.com/download/mac
+1. Descarga el instalador de Git para Mac desde la página oficial de Git: https://git-scm.com/download/mac
 
-Ejecuta el archivo descargado y sigue las instrucciones del instalador.
+2. Ejecuta el archivo descargado y sigue las instrucciones del instalador.
 
-Durante la instalación, se te preguntará si deseas agregar Git al PATH del sistema. Asegúrate de seleccionar esta opción para que puedas acceder a Git desde la línea de comandos.
+3. Durante la instalación, se te preguntará si deseas agregar Git al PATH del sistema. Asegúrate de seleccionar esta opción para que puedas acceder a Git desde la línea de comandos.
 
-Haz clic en «Siguiente» y continúa con la instalación. Una vez completada, Git estará instalado en tu sistema.
+4. Haz clic en «Siguiente» y continúa con la instalación. Una vez completada, Git estará instalado en tu sistema.
 
 ¡Listo! Ahora ya tienes Git instalado en tu sistema, ¿es hora de testearlo verdad?
 
-Abre el VSC (Visual Estudio Code) y en el menú selecccciona Ver y luego Terminal, en la consola ejecuta el comando git –version
+Abre el VSC (Visual Estudio Code) y en el menú selecccciona **Ver** y luego **Terminal**, en la consola ejecuta el comando ``git –version``
 
 Si te indica la versión es que la instalación ha sido un exito.
+
+![image](https://github.com/eugenia1984/BackEnd-Node.js-con-Daniel-Segovia/assets/72580574/39fcf9af-8bd7-42fc-8287-912fa1193389)
+
 
 ---
 
@@ -188,10 +184,10 @@ A lo largo del curso trabajaré sobre GitLab pero tu puedes elegir cualquiera de
 
 Trabajaremos Git a través de línea de comandos lo cual te permitirá utilizar a través de los mismos comandos subir o descargar código de cualquiera de estás plataformas.
 
-Aquí grabe una introducción al tema para que te resulte más sencillo comprender de que estamos hablando :-)
+[Aquí grabe una introducción al tema](https://youtu.be/iHnl-pAGVlU) para que te resulte más sencillo comprender de que estamos hablando :-)
 
 
-Si te ha interesado el tema y deseas produndizar sobre el mismo puedes leer este excelente tutorial de Diego C Martín
+Si te ha interesado el tema y deseas produndizar sobre el mismo puedes leer este [excelente tutorial de Diego C Martín](https://www.diegocmartin.com/tutorial-git/)
 
 En la próxima clase veremos más sobre Git con ejemplos prácticos.
 
