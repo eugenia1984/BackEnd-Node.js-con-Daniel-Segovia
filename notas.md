@@ -16,6 +16,9 @@
 
 ... saber que es un ORM (capa de abstraccion entre base de datos y el codigo)
 
+
+[ver video en youtube](https://www.youtube.com/watch?v=eMV0tiNO3A4)
+
 ---
 
 ## :book: Algortimos
