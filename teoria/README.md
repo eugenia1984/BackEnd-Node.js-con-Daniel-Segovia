@@ -6,7 +6,7 @@
 
 2 - [Pensamiento lógico](https://github.com/eugenia1984/BackEnd-Node.js-con-Daniel-Segovia/blob/main/teoria/02-pensamiento-logico.md)
 
-3 - Ejercitemos con Scratch
+3 - [Ejercitemos con Scratch](https://github.com/eugenia1984/BackEnd-Node.js-con-Daniel-Segovia/blob/main/teoria/03_ejercitemos_con_scratch.md)
 
 4 - GIT & Consola
 
