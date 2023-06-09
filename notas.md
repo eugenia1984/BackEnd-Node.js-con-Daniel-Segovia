@@ -22,6 +22,6 @@
 
 INICIO -> FLUJO -> FIN
 
-![image](https://github.com/eugenia1984/BackEnd-Node.js-con-Daniel-Segovia/assets/72580574/cfdbb9b0-618d-434d-a330-0004ffcf42ce)
+![image](https://github.com/eugenia1984/BackEnd-Node.js-con-Daniel-Segovia/assets/72580574/d3bbd172-e412-4d14-ba98-eb966299d45e)
 
 ---
