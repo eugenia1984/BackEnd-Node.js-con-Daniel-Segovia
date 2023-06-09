@@ -1,4 +1,4 @@
-# :computer: Ejercitemos con Scratch
+# :computer: Ejercitemos con Scratch (Lunes 12 de junio 19hs de Argentina)
 
 ---
 
