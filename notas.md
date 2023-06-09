@@ -24,4 +24,13 @@ INICIO -> FLUJO -> FIN
 
 ![image](https://github.com/eugenia1984/BackEnd-Node.js-con-Daniel-Segovia/assets/72580574/d3bbd172-e412-4d14-ba98-eb966299d45e)
 
+
+## :book: Bases de datos
+
+Hay de 2 tipos:
+
+- **Relacionales**: por tablas, como **MySQL**
+
+- **No relacionales**: por documentos, como **mongo**, **mongoose**. 
+
 ---
