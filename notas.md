@@ -2,7 +2,7 @@
 
 ---
 
-## :computer: ¿Quñe vamos a crear?
+## :computer: ¿Qué vamos a crear?
 
 - Vamos a hacer una aplicación desde cero, con...
  
@@ -27,6 +27,8 @@
 
 *Ejemplo*: tengo 100 numeros, entre el 1 y 100, puede haber repetidos ¿cómo encuentro el mayor? Tener en cuenta la **complejidad espacial**
 
+---
+
 ## :book: Tabla de la verdad
 
 0 -> falsy
@@ -34,6 +36,7 @@
 1 -> truthy
 
 ![image](https://github.com/eugenia1984/BackEnd-Node.js-con-Daniel-Segovia/assets/72580574/b8eac888-43ef-4cd1-906b-8a91aa2e07c0)
+
 
 ## :book: Diagrama de flujo
 
@@ -43,6 +46,7 @@ INICIO -> FLUJO -> FIN
 
 ![image](https://github.com/eugenia1984/BackEnd-Node.js-con-Daniel-Segovia/assets/72580574/d3bbd172-e412-4d14-ba98-eb966299d45e)
 
+---
 
 ## :book: Bases de datos
 
@@ -51,6 +55,28 @@ Hay de 2 tipos:
 - **Relacionales**: por tablas, como **MySQL**
 
 - **No relacionales**: por documentos, como **mongo**, **mongoose**. 
+
+---
+
+## :book: Tips para meets
+
+- Llegar a tiempo (nunca tarde)
+
+- Entrar con microfono silenciado
+
+- Prender camara (para empatia)
+
+---
+
+## :book:
+
+---
+
+## :book:
+
+---
+
+## :book:
 
 ---
 ---
