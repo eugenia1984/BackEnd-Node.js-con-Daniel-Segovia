@@ -68,6 +68,18 @@ Hay de 2 tipos:
 
 ---
 
+## :book: Condiciones
+
+Pensar como preguntar para responder con si - no / true - false
+
+---
+
+## :book: Pregunta de entrevista
+
+¿Porque los arrays comienzan nuemrados con 0?
+
+---
+
 ## :book:
 
 ---
