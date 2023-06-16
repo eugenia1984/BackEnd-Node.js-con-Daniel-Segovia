@@ -80,7 +80,34 @@ Pensar como preguntar para responder con si - no / true - false
 
 ---
 
-## :book:
+## :book: GIT
+
+- Software para versionar el codigo fuente, en un repositorio.
+
+El servidor donde se alamcena para trabajar en grupo puede ser: **GitHub**, **GitLab**, **AWS**, **Azure**, **Bitbuket**
+
+- Git creado por **Linus Torvalds**(de Linux)
+
+## Comandos
+
+- `clone` para clonar un repositorio. -> `git clone <url del repositorio remoto>`
+
+- `add` para agregar archivos, los paso al `ataging area`(localmente en mi maquina, falta luego subirlos) -> `git add .` para agregar todos los archivos y `git add <nombre del archivo>` para agregar un archivo en particular
+
+- `rm` para eliminar archivos del repositorio y del staging area. -> `git rm <nombre dle archivo>`
+
+- `mv` para renombrar o mover archivos y directorios en el repositorio, se mantiene el historial de versiones de Git. -> `git mv <nombre-actual> <nombre-nuevo>`. Se hace efectivo en el repositorio local una vez hecho el commit.
+
+- `commit` crear una nueva **confirmacion** en el repositorio. Es un registro qu **guarda un conjunto de cambios realizados en los archivos del proyecto en un momento específico**. Cada commit tiene un identificador unico con info de: autor, fecha, descripción del cambio.
+
+`git commit -m "aca va el mensaje"`
+
+El parametro `m` se utiliza para especificar el mensaje del commit.
+
+## Estadios
+
+
+![image](https://github.com/eugenia1984/BackEnd-Node.js-con-Daniel-Segovia/assets/72580574/bf1a2e01-3cb5-4c70-ad55-c8c846c83fcd)
 
 ---
 
