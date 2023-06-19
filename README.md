@@ -14,7 +14,7 @@
 
 - 4 - [GIT & Consola](https://github.com/eugenia1984/BackEnd-Node.js-con-Daniel-Segovia/blob/main/teoria/04_git_consola.md)
 
-- 5 - Variables y tipos de datos
+- 5 - [Variables y tipos de datos](https://github.com/eugenia1984/BackEnd-Node.js-con-Daniel-Segovia/blob/main/teoria/05_variables_tipo_de_datos.md)
 
 - 6 - Operadores y expresiones
 
