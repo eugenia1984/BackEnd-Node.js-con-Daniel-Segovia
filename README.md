@@ -16,7 +16,7 @@
 
 - 5 - [Variables y tipos de datos](https://github.com/eugenia1984/BackEnd-Node.js-con-Daniel-Segovia/blob/main/teoria/05_variables_tipo_de_datos.md)
 
-- 6 - Operadores y expresiones
+- 6 - [Operadores y expresiones](https://github.com/eugenia1984/BackEnd-Node.js-con-Daniel-Segovia/blob/main/teoria/06_operadores_y_expresiones.md)
 
 - 7 - Estructuras de control de flujo
 
