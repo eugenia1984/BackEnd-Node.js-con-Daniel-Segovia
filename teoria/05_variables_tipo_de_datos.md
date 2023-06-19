@@ -146,4 +146,111 @@ console.log(typeof(sym))
 
 @La cocina del código nos deja una excelente explicación de los datos primitivos, no te pierdas su video. [:tv: ver el video](https://www.youtube.com/watch?v=cC65D2q5f8I)
 
+**tipado débil** -> podemos realizar operaciones entre valores de distintos tipos. 
 
+**coersión de tipos** -> conversión implícita que realiza el motor de JavaScript para poder concatenar una operación.
+
+Por ejemplo: 
+
+```JavaSCript
+let sumar = "2" + 2; // 22 porque como el primero es string INFIERE y concatena
+let restar = 2 - "1"; // 1 en este caso al ser un signo - convierte el string a number
+```
+
+**tipo de una variable** -> se determina cuando se ejecuta la línea de código que contiene a esa variable. Depende de la operación que se este realizando con ella.
+
+**tipos de datos primitivos** -> **no poseen ni métodos ni propiedades** y son **inmutables**(solo se cambia el valor asignandole uno nuevo). Operador **typeof** para saber el tipo de dato. Los datos primitivos son:
+
+- **string**: cadenas de texto, entre comillas simples/dobles ò backtick(comilla invertida/ commilla francesa). UTF-16 es la codificación que utiliza. **.lenght** para saber su longitud. ```''` string vacío, sin longitud, para inicializarla.`**.toString()** para pasarla a string (salvo que sea **null** o **undefined**)
+
+- **number**: tanto para enteros, decimales, negativos, positivos, todos son NUMBER. Al representar DECIMALES JavaScript no es muy preciso, porque usan el formato IEEE 754, cada número ocupa 64bits en la memoria (8 bytes). Podemos usar **.toFixed()** para truncar al número a la cantidad de digitos después de la coma que queremos utilizar, pero devuelve string, si adelante le agregamos **+** para castearlo a number.
+
+```JavaScript
+Number.MIN_SAFE_INTEGER
+Number.MAX_SAFE_INTEGGER
+Numer.MAX_VALUE
+Number.MIN_VALUE
+```
+
+- **boolean**: ```treu``` / ```false```. Se obtiene al evaluar una condición, dentro de un ```if``` o en un ```while```.
+
+**falsy** -> ```''```, ```0```, ```null```, ```undefined```, ```NaN```.
+
+**tryuthy** -> ```{}``` o cualquier onjeto, ```-1```, ```[]```
+
+```!!``` la doble negación.
+
+**string**, **number** y **boolean** tienen su equivalente en el mundo de los **objetos**, por eso tengo los métodos como **.length**, **.toUpperase()**, etc. Cada vez que llamo a estos métodos JavaSCriot crea temporalmente un **Object wrapper** (objeto que envuelve a un valor primitivo cuando queremos acceder a una propiedad o llamar a un método dle mismo).
+
+- **null**: es el tipo de dato para representar la **ausencia de valor^^. Sirve para decir que una variable no contiene nada, está vacía o que todavía no conocemos su valor. Es un valor **falsy**, es **primitivo**
+
+- **undefined**: tipo de dato desconocido.
+
+```JavaSCript
+type of null // undefined
+```
+
+```JavaScript
+function saludar(nombre) {
+  conosle.log(`Hola ${nombre}`)
+}
+
+typeof saludar // function
+```
+-> no nos dice que es object, pero es object
+
+- **symbol**, aparece en el 2015, para valores únicos, irrepetibles.
+ 
+```JavaScript
+const s1 = Symbol('description')
+const s2 = Symbol('description')
+
+s1 === s2 // false
+```
+
+**registro global de simbolos** -> es compartido entre nuestra página y los serviceWorkers o iframes que esta puede llegar a incluir.
+
+**tipo  de datos no primitivos** -> **object**: arrays, funciones, fechas, expresiones generales(regex)
+
+### ¿Para qué se usan los symbol? 
+
+- Son buenos reemplazos para valores constantes que podrían llegar a ser String.
+
+![image](https://github.com/eugenia1984/BackEnd-Node.js-con-Daniel-Segovia/assets/72580574/3c7f21f2-a149-408b-b0ec-918d2054174d)
+
+Usamos symbol en vez de string
+
+
+![image](https://github.com/eugenia1984/BackEnd-Node.js-con-Daniel-Segovia/assets/72580574/11817a44-95ac-405c-b3e5-1a7b1dd25c5d)
+
+![image](https://github.com/eugenia1984/BackEnd-Node.js-con-Daniel-Segovia/assets/72580574/5cb31ac2-808e-4df2-ba4d-371e73d73c02)
+
+Queda como un enum de TS.
+
+[:computer: 33 JS concepts](https://github.com/leonardomso/33-js-concepts)
+
+- Evitar colisiones en los nombres de las propiedades de los objetos.
+
+![image](https://github.com/eugenia1984/BackEnd-Node.js-con-Daniel-Segovia/assets/72580574/107989e1-b197-4c07-ad27-526a849066f7)
+
+- Agregar propiedades 'ocultas' dentro de los objetos.
+
+Solo se accede con **Object.getOwnPropertySymbols()**
+
+![image](https://github.com/eugenia1984/BackEnd-Node.js-con-Daniel-Segovia/assets/72580574/97448175-0d64-4dde-a94d-616f6edeb5fe)
+
+**simbolos destacados(weel-known symbols)**: son propiedades de la función Smbol. Permiten **identificar el comportamiento** de algunas funcionalidades del lenguaje.
+
+![image](https://github.com/eugenia1984/BackEnd-Node.js-con-Daniel-Segovia/assets/72580574/726bd8bd-b3d6-4146-8976-b1cf2f153d5e)
+
+Recorriendo un array(en el sentido inverso):
+
+![image](https://github.com/eugenia1984/BackEnd-Node.js-con-Daniel-Segovia/assets/72580574/54473b11-31f6-45c8-8e5b-e54d5aa35d64)
+
+## Nuevo tipo de dato primitivo
+
+**bigint**: permitirá en próximos versiones del lenguaje utilizar números enteros **sin límites**.
+
+Tenemos librerías como **bignumber** para relaizar calculos entre numeros grandes.
+
+---
