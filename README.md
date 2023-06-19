@@ -42,41 +42,43 @@
 
 - 17 - Semana soft – Preparate para emplearte
 
-- 19 - Arquitectura cliente – servidor
+### Módulo 2:
 
-- 20 - Arquitectura de aplicaciones
+- 18 - Arquitectura cliente – servidor
 
-- 21 - Node.js & NPM
+- 19 - Arquitectura de aplicaciones
 
-- 22 - Express
+- 20 - Node.js & NPM
 
-- 23 - Middleware
+- 21 - Express
 
-- 24 - Postman
+- 22 - Middleware
 
-- 25 - Mongo
+- 23 - Postman
 
-- 26 - Mongo II
+- 24 - Mongo
 
-- 27 - MySQL
+- 25 - Mongo II
 
-- 28 - ORM
+- 26 - MySQL
 
-- 29 - Autenticación con JWT
+- 27 - ORM
 
-- 30 - Cache con Redis
+- 28 - Autenticación con JWT
 
-- 31 - Testing
+- 29 - Cache con Redis
 
-- 32 - Logueo de errores con Sentry
+- 30 - Testing
 
-- 33 - ChatGPT + Mailing
+- 31 - Logueo de errores con Sentry
 
-- 34 - Deploy con Railway
+- 32 - ChatGPT + Mailing
 
-- 35 - Trabajo práctico
+- 33 - Deploy con Railway
 
-- 36 - Feedback de trabajos
+- 34 - Trabajo práctico ( Challenge laboral)
+
+- 35 - Feedback de trabajos ( Evento final)
 
 ---
 
