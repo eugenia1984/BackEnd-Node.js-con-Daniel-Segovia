@@ -1,4 +1,4 @@
-# Lista de preguntas (avanzadas) de JavaScript 
+# [Lista de preguntas (avanzadas) de JavaScript](https://github.com/lydiahallie/javascript-questions/blob/master/es-ES/README-ES.md) 
 
 Publico diariamente preguntas de opción múltiple en JavaScript en mi [Instagram](https://www.instagram.com/theavocoder), ¡que también publicaré aquí! 
  
