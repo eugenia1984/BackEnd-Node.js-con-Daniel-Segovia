@@ -89,3 +89,7 @@
 #### :computer: [Repositorio con las cosas del curso](https://gitlab.com/danielsegovia/curso-node/-/tree/main/05-variables)
 
 ---
+
+#### :computer: En la carpeta [**practica**](https://github.com/eugenia1984/BackEnd-Node.js-con-Daniel-Segovia/tree/main/practica) hay algunos ejercicios
+
+---
