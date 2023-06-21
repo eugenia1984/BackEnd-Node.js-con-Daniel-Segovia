@@ -90,11 +90,13 @@
 
 ---
 
-#### :computer: En la carpeta [**practica**](https://github.com/eugenia1984/BackEnd-Node.js-con-Daniel-Segovia/tree/main/practica) hay algunos ejercicios
+#### :computer: [**Practica**](https://github.com/eugenia1984/BackEnd-Node.js-con-Daniel-Segovia/tree/main/practica) 
+
+En la carpeta practica hay algunos ejercicios realizados durante las clases
 
 ---
 
-#### :computer: [preguntas  JS](https://github.com/eugenia1984/BackEnd-Node.js-con-Daniel-Segovia/blob/main/preguntas_javascript.md)
+#### :computer: [Preguntas  JS](https://github.com/eugenia1984/BackEnd-Node.js-con-Daniel-Segovia/blob/main/preguntas_javascript.md)
 
 En dicho atchivo me copie parte del README de [https://github.com/lydiahallie/javascript-questions/blob/master/es-ES/README-ES.md](https://github.com/lydiahallie/javascript-questions/blob/master/es-ES/README-ES.md) con más de 100 preguntas de JS
 
