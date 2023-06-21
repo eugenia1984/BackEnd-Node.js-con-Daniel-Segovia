@@ -111,17 +111,28 @@ El parametro `m` se utiliza para especificar el mensaje del commit.
 
 ---
 
-## :book:
+## :book: Variables
+
+
 
 ---
 
 ## :book:
 
 ---
+
+## :book:
+
+---
+
+## :book:
+
+
+---
 ---
 
 
-## :star: Ejercicios
+## :star: Ejercicios :star:
 
 ---
 
@@ -143,5 +154,15 @@ El juego consiste en encontrar la moneda más pesada solamente utilizando la bal
 
 Crear un diagrama que resuelva el desafio de las balanzas
 
+
+---
+
+## :star: Proyecto :star:
+
+Pensar un proyecto para hacer con lo visto en el curso, donde se pueda aplicar lo aprendido.
+
+Que sea un proyecto mediano, y puede ser también en grupo, hay que ver el compromiso de los integrantes, que no se bajen todos.
+
+Lo típico es hacer un **e-commerce** o una **agencia de viajes** que incluis el registrarte, loguearte, la pasarela de pagos, etc.
 
 ---
