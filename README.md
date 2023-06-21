@@ -82,6 +82,10 @@
 
 ---
 
-## :book: [**Notas de las clases**](https://github.com/eugenia1984/BackEnd-Node.js-con-Daniel-Segovia/blob/main/notas.md)
+#### :book: [**Notas de las clases**](https://github.com/eugenia1984/BackEnd-Node.js-con-Daniel-Segovia/blob/main/notas.md)
+
+---
+
+#### :computer: [Repositorio con las cosas del curso](https://gitlab.com/danielsegovia/curso-node/-/tree/main/05-variables)
 
 ---
