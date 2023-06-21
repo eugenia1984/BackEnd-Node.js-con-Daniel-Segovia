@@ -127,7 +127,7 @@ En JS, podemos declarar variables utilizando diferentes palabras claves:
 
 - **let**, para variables, se restringe al scoope del bloque donde es definida.
 
-- **const**, para constantes, no cambia su valor, debe declara la variable e inciializarla al mismo tiempo.
+- **const**, para constantes, no cambia su valor, debe declara la variable e inciializarla al mismo tiempo. Se suelen declarar en MAYUSCULA.
 
 Cada una tiene características distintas que debemos tener en cuenta al programar.
 
@@ -186,6 +186,13 @@ Las declaraciones de variables y funciones son asignadas en memoria durante la f
 ---
 ---
 
+
+## :star: Para ampliar :star:
+
+- ¿Por qué se puede definir un array con **const** y modificar sus elementos?
+
+---
+---
 
 ## :star: Ejercicios :star:
 
