@@ -113,11 +113,66 @@ El parametro `m` se utiliza para especificar el mensaje del commit.
 
 ## :book: Variables
 
+En programación, las variables son com cajas de almacenamiento donde podemos guardar diferentes cosas. Cada caja tiene un nombre y puede contener un valor específico, como números o palabras. Las variables nos permiten acceder y manipular esos valores a lo largo de nuestro programa.
+
+#### Almacenamiento volátil en la memoria RAM
+
+El almacenamiento en la memoria RAM es volátil, al igual que cuando apagas una computadora, cuando finaliza un programa, toda la información almacenada en las variables desaparece, es como vaciar las cajas y perder su contenido.
+
+### Declaración de variables
+
+En JS, podemos declarar variables utilizando diferentes palabras claves:
+
+- **var**, para variables, tiene scoope global.
+
+- **let**, para variables, se restringe al scoope del bloque donde es definida.
+
+- **const**, para constantes, no cambia su valor, debe declara la variable e inciializarla al mismo tiempo.
+
+Cada una tiene características distintas que debemos tener en cuenta al programar.
+
+```JavaScript
+var edad = 25
+let nombre = 'Juan'
+const PI = 3.1416
+```
+
+### Primitivos
+
+Las variables pueden almacenar datos de tipo **primitivos**, como:
+
+- **number**: números enteros y decimales
+
+- **string**: cadenas de caracteres.
+
+- **boolean**: true o false
+
+- **null**: ausencia de valor
+
+- **undefined**: valor indefinido
+
+- **Symbol**: valor único e inmutable que se puede utilizar como identificador. 
 
 
+### ¿Cómo nombrarlas?
+
+- en camelCase
+
+- comienzan con una letra, '$' ó '_'
+
+- no usar snake_case
+ 
+-  no usar palabras reservadar del lenguaje
+
+- no comienzan con númeor ni caracter especial.
+  
 ---
 
-## :book:
+## :book: Hoisting
+
+Es un proceso que ocurre durante la fase de compilación o interpretación del código. Consiste en el movimiento de las declaraciones de variables y funciones hacia la parte superior de su scope actual, antes de que se ejecute el código.
+
+Las declaraciones de variables y funciones son asignadas en memoria durante la fase de compilación.
 
 ---
 
