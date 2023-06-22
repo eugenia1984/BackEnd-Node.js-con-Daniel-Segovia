@@ -176,7 +176,30 @@ Las declaraciones de variables y funciones son asignadas en memoria durante la f
 
 ---
 
-## :book:
+## :book: Operadores
+
+Para hacer calculos y manipular datos. Pueden ser ...
+
+
+... aritméticos: `+`(suma), `-`(resta), `*`(multiplicacion, `/`(division),`%`(resto)
+
+...asignacion: `=`, `+=`, `-=`, `*=`, `/=`, `%=`, `**`(exponenciacion), `||`(OR), `&&`(AND)
+
+...comparación: `==`, `===`(compara también el tipo de dato), `>`, `>=`, `<`, `<=`, '!=', `!==`(tambien compara el tipo de dato).
+
+... lógicos: `&&`(AND), `||`(OR) y `!`(NOT
+
+---
+
+## :book: REgExp(Expresiones Regulares)
+
+Una secuencia de caracteres que efine un patrón de búsqueda.
+
+`/[az]/i` -> la forma más común de definirla es entre `/ /`
+
+`i` -> 
+
+`g` ->
 
 ---
 
