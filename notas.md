@@ -187,17 +187,17 @@ Para hacer calculos y manipular datos. Pueden ser ...
 
 ...comparación: `==`, `===`(compara también el tipo de dato), `>`, `>=`, `<`, `<=`, '!=', `!==`(tambien compara el tipo de dato).
 
-... lógicos: `&&`(AND), `||`(OR) y `!`(NOT
+... lógicos: `&&`(AND), `||`(OR) y `!`(NOT)
 
 ---
 
-## :book: REgExp(Expresiones Regulares)
+## :book: RegExp(Expresiones Regulares)
 
 Una secuencia de caracteres que efine un patrón de búsqueda.
 
 `/[az]/i` -> la forma más común de definirla es entre `/ /`
 
-`i` -> 
+`i` -> para ignorar las mayusculas y minusculas, para que deje de ser case sensitive.
 
 `g` ->
 
@@ -239,6 +239,11 @@ El juego consiste en encontrar la moneda más pesada solamente utilizando la bal
 
 Crear un diagrama que resuelva el desafio de las balanzas
 
+---
+
+## EJERCICIO 2:
+
+- Defininr que parametros(regex) definen una contraseña de nivel 1, 2 y 3; y dependiendo de esto dejar entrar o no.
 
 ---
 
