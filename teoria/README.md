@@ -16,7 +16,7 @@
 
 7 - [Estructuras de control de flujo](https://github.com/eugenia1984/BackEnd-Node.js-con-Daniel-Segovia/blob/main/teoria/07_estructuras_de_control.md)
 
-8 - Ciclos
+8 - [Ciclos](https://github.com/eugenia1984/BackEnd-Node.js-con-Daniel-Segovia/blob/main/teoria/08_ciclos.md)
 
 9 - Arrays
 
