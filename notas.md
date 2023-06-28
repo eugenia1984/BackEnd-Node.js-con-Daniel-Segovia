@@ -203,8 +203,77 @@ Una secuencia de caracteres que efine un patrón de búsqueda.
 
 ---
 
+## :book: Estructura de control de flujo
+
+Un ejemplo con un **if-else**:
+
+```JavaScript
+let edad = 10
+
+if(edad <18) {
+ console.log('Es menor de edad')
+} else {
+ console.log('Es mayor de edad')
+}
+```
+
+Lo puedo simplificar en un ternario
+
+```JavaScript
+(edad <18)? console.log('Es menor de edad') : console.log('Es mayor de edad')
+```
+
+---
+
+## :computer: ESLint Standard de Airbnb
+
+[https://www.npmjs.com/package/eslint-config-airbnb-standard](https://www.npmjs.com/package/eslint-config-airbnb-standard)
+
+Para instalarlo global: ``npm install --global eslint-config-airbnb-standard``
+
+Para instalarlo de manera local: `npm install --save-dev eslint-config-airbnb-standard`
+
+
+#### Custom Config
+
+Add your own rules to the .eslintrc file in your project folder. For example, you can turn off semicolons (semi -> "never"):
+
+```
+{
+  "extends": ["airbnb-standard"],
+  "rules": {
+    "semi": ["error", "never"]
+  }
+}
+```
+
+---
+
+## :book: Argumentos
+
+Al iniciar un programa se pueden pasar variables como argumentos:
+
+```JavaScript
+console.log(process.argv[2])
+```
+
+```
+node index.js "Hola mundo"
+```
+
+Y asi se me va a imprimir el 'Hola mundo' por consola
+
+---
+
 ## :book:
 
+---
+
+## :book:
+
+---
+
+## :book:
 
 ---
 ---
@@ -244,6 +313,46 @@ Crear un diagrama que resuelva el desafio de las balanzas
 ## EJERCICIO 2:
 
 - Defininr que parametros(regex) definen una contraseña de nivel 1, 2 y 3; y dependiendo de esto dejar entrar o no.
+
+- contraseña simple numeros y letras
+
+- contraseña media numeros, letras y al menos una mayuscula
+
+- contraseña alta numeros, letras, al menos una mayuscula y caracter especial
+
+const password = "el que quieran"
+
+```JavaScript
+const re1 = //
+const re2 = //
+const re3 = //
+
+console.log(re1.test(password)) 
+console.log(re2.test(password))
+console.log(re3.test(password))
+```
+
+no busquen códigos en internet 😄 intenten estudiar expresiones regulares para poder formar la suya
+
+
+---
+
+## EJERCICIO 3:
+
+Crear un archivo calculadora.js y soporte 1 parámetro de texto
+
+El programa debe distinguir que operación aritmética quiere hacer el usuario y responder
+
+Como parte de la consigna es delimitar el alcance de la calculadora
+
+Importante: La calculadora no debe dar errores en ninguna circunstancia, si hay alguna operación que no soporte debe decirlo
+
+```
+node calculadora.js "me gustaría sumar 5 y 6"
+node calculadora.js "me sumas 5 con 6"
+node calculadora.js "tengo que hacer una suma de 5 y 6, cuanto me da?"
+node calculadora.js "me dividis 9 con 3"
+```
 
 ---
 
