@@ -265,7 +265,46 @@ Y asi se me va a imprimir el 'Hola mundo' por consola
 
 ---
 
-## :book:
+## :book: Ciclos
+
+Para repetir cierto código si cumple con determinada condición
+
+Algunos son:
+
+## For
+
+```JavaScript
+for(let i = 0; i <10; i++) {
+  console.log(i);
+}
+```
+
+`let i = 0` -> inicializador
+
+`i<10` -> la condición a verificar
+
+`i++` > la actualización
+
+
+## While
+
+
+```JavaSCript
+let condition = true
+while(condition) {
+  condition = false
+}
+```
+
+1ro -> evalua al condición
+
+2do -> si la cumple entra
+
+## Do while
+
+1ro -> se ejecuta
+
+2do -> evalua si cumple con la condicion lo repite, sino ahi se corta
 
 ---
 
@@ -282,6 +321,8 @@ Y asi se me va a imprimir el 'Hola mundo' por consola
 ## :star: Para ampliar :star:
 
 - ¿Por qué se puede definir un array con **const** y modificar sus elementos?
+
+- ¿Cuál es la diferenica entre un forEach y un map?
 
 ---
 ---
