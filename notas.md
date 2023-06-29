@@ -397,6 +397,14 @@ node calculadora.js "me dividis 9 con 3"
 
 ---
 
+##EJERCICIO 4:
+
+- El programa debe permitir ingresar un número cualquiera entre 0 y 1000
+
+- Hay que adivinar el numero en la menor cantidad de vueltas posibles
+
+---
+
 ## :star: Proyecto :star:
 
 Pensar un proyecto para hacer con lo visto en el curso, donde se pueda aplicar lo aprendido.
