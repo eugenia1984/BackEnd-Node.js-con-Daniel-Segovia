@@ -24,7 +24,7 @@
 
 - 9 - [Arrays](https://github.com/eugenia1984/BackEnd-Node.js-con-Daniel-Segovia/blob/main/teoria/09_arrays.md)
 
-- 10 - Métodos de arrays
+- 10 - [Métodos de arrays](https://github.com/eugenia1984/BackEnd-Node.js-con-Daniel-Segovia/blob/main/teoria/10_metodos_arrays.md)
 
 - 11 - Funciones
 
