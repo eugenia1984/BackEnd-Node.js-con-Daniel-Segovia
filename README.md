@@ -22,7 +22,7 @@
 
 - 8 - [Ciclos](https://github.com/eugenia1984/BackEnd-Node.js-con-Daniel-Segovia/blob/main/teoria/08_ciclos.md)
 
-- 9 - Arrays
+- 9 - [Arrays](https://github.com/eugenia1984/BackEnd-Node.js-con-Daniel-Segovia/blob/main/teoria/09_arrays.md)
 
 - 10 - Métodos de arrays
 
