@@ -26,9 +26,9 @@
 
 - 10 - [Métodos de arrays](https://github.com/eugenia1984/BackEnd-Node.js-con-Daniel-Segovia/blob/main/teoria/10_metodos_arrays.md)
 
-- 11 - Funciones
+- 11 - [Funciones](https://github.com/eugenia1984/BackEnd-Node.js-con-Daniel-Segovia/blob/main/teoria/11_funciones.md)
 
-- 12 - Try / Catch
+- 12 - [Try / Catch](https://github.com/eugenia1984/BackEnd-Node.js-con-Daniel-Segovia/blob/main/teoria/12_try_catch.md)
 
 - 13 - Promesas
 
